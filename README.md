@@ -82,6 +82,7 @@ scripts/
   ablate_disorder.py     conditional-disorder ablation
   design_top.py          factorial design report
 ```
+<img width="527" height="370" alt="image" src="https://github.com/user-attachments/assets/6914956f-7b39-4694-8160-2e1da2860811" />
 
 ## Licence
 
