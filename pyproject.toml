@@ -1,0 +1,27 @@
+[project]
+name = "amp-design"
+version = "0.1.0"
+description = "Generative design of antimicrobial peptides"
+readme = "README.md"
+authors = [
+    { name = "Nandini G", email = "nandinigantayat@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "gudhi>=3.13.0",
+    "levenshtein>=0.27.5",
+    "lightgbm>=4.7.0",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "rapidfuzz>=3.14.6",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "torch>=2.14.0",
+]
+
+[project.scripts]
+generate = "amp_design.generate:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
