@@ -157,9 +157,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--n-sequences", type=int, default=50_000)
     p.add_argument("--top-k", type=int, default=100)
     p.add_argument("--seed", type=int, default=42)
-    p.add_argument("--length", type=int, default=MAX_LENGTH)
-    p.add_argument("--oversample", type=float, default=2.5,
-                   help="pool size relative to the library, before filtering")
+    p.add_argument("--length", type=int, default=32)
+    p.add_argument("--oversample", type=float, default=1.4)
     p.add_argument("--refine-seeds", type=int, default=150)
     p.add_argument("--anneal-steps", type=int, default=400)
     p.add_argument("--quiet", action="store_true")

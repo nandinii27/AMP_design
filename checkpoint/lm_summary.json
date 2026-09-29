@@ -1,0 +1,8 @@
+{
+  "corpus_size": 29023,
+  "source": "data\\antibacterial.fasta",
+  "cysteine_excluded": true,
+  "epochs": 20,
+  "seed": 42,
+  "parameters": 808992
+}
