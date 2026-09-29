@@ -83,9 +83,10 @@ scripts/
   design_top.py          factorial design report
 ```
 <img width="527" height="370" alt="image" src="https://github.com/user-attachments/assets/6914956f-7b39-4694-8160-2e1da2860811" />
-*Rank-1 candidate, rendered on an idealised α-helix. Blue nitrogens mark the
+
+Rank-1 candidate, rendered on an idealised α-helix. Blue nitrogens mark the
 cationic face that targets the anionic bacterial membrane; the carbon backbone
-opposite forms the hydrophobic face that inserts into it*
+opposite forms the hydrophobic face that inserts into it
 
 ## Licence
 
