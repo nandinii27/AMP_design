@@ -1,4 +1,6 @@
-﻿.venv/
+﻿generate/
+.venv/
 __pycache__/
-generate/
 *.pyc
+data/dbaasp_raw.ndjson
+data/dbaasp_trial.ndjson

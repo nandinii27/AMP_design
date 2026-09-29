@@ -1,0 +1,50 @@
+{
+  "gram_positive": {
+    "spearman": 0.4615795568249753,
+    "mae_log2": 1.653038055765824,
+    "within_one_dilution": 0.3749318801089918,
+    "within_two_dilutions": 0.6779291553133515,
+    "censored_bound_respected": 0.12646370023419204,
+    "n_censored": 427.0,
+    "n_observed": 1835.0,
+    "n_train": 8583.0,
+    "n_test": 2262.0,
+    "conformal_width_log2": 2.5468426598789478
+  },
+  "gram_negative": {
+    "spearman": 0.5399281510687065,
+    "mae_log2": 1.613580858613179,
+    "within_one_dilution": 0.39879759519038077,
+    "within_two_dilutions": 0.700066800267201,
+    "censored_bound_respected": 0.22073578595317725,
+    "n_censored": 299.0,
+    "n_observed": 1497.0,
+    "n_train": 9479.0,
+    "n_test": 1796.0,
+    "conformal_width_log2": 2.5091358879955377
+  },
+  "hc50": {
+    "spearman": 0.48210172367328186,
+    "mae_log2": 1.8361862196596705,
+    "within_one_dilution": 0.3556581986143187,
+    "within_two_dilutions": 0.6581986143187067,
+    "censored_bound_respected": 0.5941422594142259,
+    "n_censored": 717.0,
+    "n_observed": 433.0,
+    "n_train": 4400.0,
+    "n_test": 1150.0,
+    "conformal_width_log2": 3.0836130948882685
+  },
+  "resistant": {
+    "spearman": 0.391312322749707,
+    "mae_log2": 1.4816765251810895,
+    "within_one_dilution": 0.4061433447098976,
+    "within_two_dilutions": 0.7167235494880546,
+    "censored_bound_respected": 0.13761467889908258,
+    "n_censored": 109.0,
+    "n_observed": 293.0,
+    "n_train": 1614.0,
+    "n_test": 402.0,
+    "conformal_width_log2": 2.442777491420002
+  }
+}
