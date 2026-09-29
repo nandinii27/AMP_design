@@ -1,0 +1,62 @@
+{
+  "A random split, ceilings observed": {
+    "n_test_mean": 1110.0,
+    "n_scored_mean": 1110.0,
+    "spearman_mean": 0.6028477012827378,
+    "pearson_mean": 0.6093144530307548,
+    "mae_log2_mean": 1.1679461233685584,
+    "within_one_dilution_mean": 0.5614414414414414,
+    "n_test_std": 0.0,
+    "n_scored_std": 0.0,
+    "spearman_std": 0.009574440757293032,
+    "pearson_std": 0.01063120045547331,
+    "mae_log2_std": 0.01774430209471235,
+    "within_one_dilution_std": 0.00851625390853802,
+    "train_test_leakage": 0.996036036036036
+  },
+  "B random split, ceilings censored": {
+    "n_test_mean": 1110.0,
+    "n_scored_mean": 415.0,
+    "spearman_mean": 0.6408006792046288,
+    "pearson_mean": 0.6255348694957918,
+    "mae_log2_mean": 1.5938538943640987,
+    "within_one_dilution_mean": 0.43651231110629085,
+    "n_test_std": 0.0,
+    "n_scored_std": 23.46060527778429,
+    "spearman_std": 0.01769450096146466,
+    "pearson_std": 0.026972588639700257,
+    "mae_log2_std": 0.04291902732652671,
+    "within_one_dilution_std": 0.010688598020119748,
+    "train_test_leakage": 0.996036036036036
+  },
+  "C clustered split, ceilings observed": {
+    "n_test_mean": 984.4,
+    "n_scored_mean": 984.4,
+    "spearman_mean": 0.4968711394070831,
+    "pearson_mean": 0.5041053468449092,
+    "mae_log2_mean": 1.2433524474320492,
+    "within_one_dilution_mean": 0.5142831828463192,
+    "n_test_std": 187.1497795884355,
+    "n_scored_std": 187.1497795884355,
+    "spearman_std": 0.041135229861010245,
+    "pearson_std": 0.03343412411339374,
+    "mae_log2_std": 0.05719735973494278,
+    "within_one_dilution_std": 0.019571014668215952,
+    "train_test_leakage": 0.0
+  },
+  "D clustered split, ceilings censored": {
+    "n_test_mean": 984.4,
+    "n_scored_mean": 373.0,
+    "spearman_mean": 0.5091003771247143,
+    "pearson_mean": 0.50390222605649,
+    "mae_log2_mean": 1.659199260336186,
+    "within_one_dilution_mean": 0.4027976935407399,
+    "n_test_std": 187.1497795884355,
+    "n_scored_std": 85.4049178911847,
+    "spearman_std": 0.0698888899442641,
+    "pearson_std": 0.04895879428415602,
+    "mae_log2_std": 0.11819324530522464,
+    "within_one_dilution_std": 0.032472265843135645,
+    "train_test_leakage": 0.0
+  }
+}

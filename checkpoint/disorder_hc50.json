@@ -1,0 +1,77 @@
+{
+  "performance": {
+    "existing": {
+      "spearman_mean": 0.5091003771247143,
+      "mae_log2_mean": 1.659199260336186,
+      "within_one_dilution_mean": 0.4027976935407399,
+      "within_two_dilutions_mean": 0.6838813407237538,
+      "censored_bound_respected_mean": 0.5311485249751486,
+      "n_censored_mean": 611.4,
+      "n_observed_mean": 373.0,
+      "spearman_std": 0.0698888899442641,
+      "mae_log2_std": 0.11819324530522464,
+      "within_one_dilution_std": 0.032472265843135645,
+      "within_two_dilutions_std": 0.031167112878565596,
+      "censored_bound_respected_std": 0.015560373376262312,
+      "n_censored_std": 103.29685377590162,
+      "n_observed_std": 85.4049178911847,
+      "n_features": 44.0
+    },
+    "+disorder": {
+      "spearman_mean": 0.4995466742653484,
+      "mae_log2_mean": 1.6722611968675907,
+      "within_one_dilution_mean": 0.39244929305658643,
+      "within_two_dilutions_mean": 0.6804381078163404,
+      "censored_bound_respected_mean": 0.528894775058675,
+      "n_censored_mean": 611.4,
+      "n_observed_mean": 373.0,
+      "spearman_std": 0.057406941174678164,
+      "mae_log2_std": 0.11066490059194127,
+      "within_one_dilution_std": 0.019846310714154734,
+      "within_two_dilutions_std": 0.03278741754604118,
+      "censored_bound_respected_std": 0.006305813754826503,
+      "n_censored_std": 103.29685377590162,
+      "n_observed_std": 85.4049178911847,
+      "n_features": 53.0
+    },
+    "+disorder, no helix proxies": {
+      "spearman_mean": 0.4914337060988318,
+      "mae_log2_mean": 1.68334807084385,
+      "within_one_dilution_mean": 0.39287510738797804,
+      "within_two_dilutions_mean": 0.6871654278076984,
+      "censored_bound_respected_mean": 0.5278542151128279,
+      "n_censored_mean": 611.4,
+      "n_observed_mean": 373.0,
+      "spearman_std": 0.05118145273033459,
+      "mae_log2_std": 0.11353815296160165,
+      "within_one_dilution_std": 0.02585267912666504,
+      "within_two_dilutions_std": 0.03501495396586857,
+      "censored_bound_respected_std": 0.00822308414787552,
+      "n_censored_std": 103.29685377590162,
+      "n_observed_std": 85.4049178911847,
+      "n_features": 51.0
+    }
+  },
+  "univariate": {
+    "helicity_water": 0.13552859653546326,
+    "helicity_interface": 0.11161073777852763,
+    "helicity_gap": 0.050986560200494364,
+    "helicity_ratio": -0.17010276253399512,
+    "switchability": 0.06010112518004735,
+    "water_optimum_dev": -0.0812074372031186,
+    "prefold_risk": 0.041697219387111205,
+    "charge_helix_coupling": 0.23206062159237412,
+    "helicity_length_product": -0.14428909237770346
+  },
+  "importance": {
+    "helicity_water": 0.00992063492063492,
+    "helicity_interface": 0.009523809523809525,
+    "helicity_gap": 0.018253968253968255,
+    "helicity_ratio": 0.023412698412698413,
+    "switchability": 0.020634920634920634,
+    "water_optimum_dev": 0.011904761904761904,
+    "prefold_risk": 0.017063492063492062,
+    "charge_helix_coupling": 0.005555555555555556,
+    "helicity_length_product": 0.01746031746031746
+  }
+}
